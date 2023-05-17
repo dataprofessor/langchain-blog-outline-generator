@@ -3,6 +3,9 @@
 Blog Outline Generator App built using Langchain and Streamlit
 ```
 
+## Topics covered
+Using `PromptTemplate` to accept user input to prepare and format an input prompt to the OpenAI LLM model
+
 ## Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-text-summarization.streamlit.app/)
