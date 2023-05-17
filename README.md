@@ -4,7 +4,7 @@ Blog Outline Generator App built using Langchain and Streamlit
 ```
 
 ## Topics covered
-- Using `PromptTemplate` to accept user input to prepare and format an input prompt 
+- Using `PromptTemplate()` to accept user input to prepare and format an input prompt 
 - The above prompt serves as an input to the OpenAI LLM model for generating a response
 
 ## Demo App
