@@ -4,7 +4,7 @@ from langchain import PromptTemplate
 
 st.title('🦜🔗 Langchain - Blog Outline Generator App')
 
-def blog_outline(topic)
+def blog_outline(topic):
   # Instantiate LLM model
   llm = OpenAI(model_name='text-davinci-003')
   os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
