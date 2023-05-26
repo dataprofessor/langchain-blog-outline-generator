@@ -17,7 +17,7 @@ def blog_outline(topic):
   # Print results
   return st.info(response)
 
-with st.form:
+with st.form('myform'):
   topic_text = st.text_input('Enter prompt:', '')
   submitted = st.form_submit_button('Submit')
   if submitted:
