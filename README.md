@@ -3,6 +3,8 @@
 Blog Outline Generator App built using Langchain and Streamlit
 ```
 
+![](diagram.jpg)
+
 ## Overview of the App
 1. Accept user provided prompt as an input using Streamlit's `st.text_input()`
 2. Create the final prompt by using PromptTemplate() to combine the “topic” and the prompt instructions.
