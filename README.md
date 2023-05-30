@@ -3,7 +3,7 @@
 Blog Outline Generator App built using Langchain and Streamlit
 ```
 
-<img src="diagram.jpg" width="80%">
+<img src="diagram.jpg" width="75%">
 
 
 ## Overview of the App
