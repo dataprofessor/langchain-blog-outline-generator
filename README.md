@@ -3,7 +3,9 @@
 Blog Outline Generator App built using Langchain and Streamlit
 ```
 
-<center><img src="diagram.jpg" width="80%"></center>
+<center>
+  <img src="diagram.jpg" width="85%">
+</center>
 
 ## Overview of the App
 1. Accept user provided prompt as an input using Streamlit's `st.text_input()`
