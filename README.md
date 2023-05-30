@@ -1,6 +1,6 @@
-# 🦜🔗 Langchain - Blog Outline Generation App
+# 🦜🔗 Langchain - Blog Outline Generator App
 ```
-Blog Outline Generation App built using Langchain and Streamlit
+Blog Outline Generator App built using Langchain and Streamlit
 ```
 
 <img src="diagram.jpg" width="75%">
@@ -13,7 +13,7 @@ Blog Outline Generation App built using Langchain and Streamlit
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-outline-generation.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-outline-generator.streamlit.app/)
 
 ## Get an OpenAI API key
 
