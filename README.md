@@ -1,4 +1,4 @@
-# 🦜🔗 Langchain - Blog Outline Generator App
+# 🦜🔗 Langchain - Blog Outline Generation App
 ```
 Blog Outline Generator App built using Langchain and Streamlit
 ```
@@ -13,7 +13,7 @@ Blog Outline Generator App built using Langchain and Streamlit
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-outline-generator.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-outline-generation.streamlit.app/)
 
 ## Get an OpenAI API key
 
