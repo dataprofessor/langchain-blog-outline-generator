@@ -8,7 +8,7 @@ Blog Outline Generator App built using Langchain and Streamlit
 
 ## Overview of the App
 1. Accept user provided prompt as an input using Streamlit's `st.text_input()`
-2. Create the final prompt by using `PromptTemplate()` to combine the *"topic"* and the *prompt instructions*.
+2. Create the final prompt by using `PromptTemplate()` to combine the **"topic"** and the **prompt instructions**.
 3. The above prompt (from step 3) serves as an input to the OpenAI LLM model for generating a response (the blog outline)
 
 ## Demo App
