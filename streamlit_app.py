@@ -3,7 +3,7 @@ from langchain.llms import OpenAI
 from langchain import PromptTemplate
 
 st.title('🦜🔗 Blog Outline Generator App')
-
+st.set_page_config(page_title="🦜🔗 Blog Outline Generator App")
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
 
 def generate_response(topic):
