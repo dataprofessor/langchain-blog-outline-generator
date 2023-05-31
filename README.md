@@ -1,7 +1,6 @@
 # 🦜🔗 Langchain - Blog Outline Generator App
-```
-Blog Outline Generator App built using Langchain and Streamlit
-```
+
+Blog Outline Generator App built using Langchain and Streamlit.
 
 <img src="diagram.jpg" width="75%">
 
