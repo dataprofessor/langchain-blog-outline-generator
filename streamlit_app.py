@@ -6,7 +6,7 @@ st.title('🦜🔗 Blog Outline Generator App')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
 
-def blog_outline(topic):
+def generate_response(topic):
   llm = OpenAI(model_name='text-davinci-003', openai_api_key=openai_api_key)
   # Prompt
   template = 'As an experienced data scientist and technical writer, generate an outline for a blog about {topic}.'
@@ -22,4 +22,4 @@ with st.form('myform'):
   if not openai_api_key.startswith('sk-'):
     st.warning('Please enter your OpenAI API key!', icon='⚠')
   if submitted and openai_api_key.startswith('sk-'):
-    blog_outline(topic_text)
+    generate_response(topic_text)
