@@ -17,7 +17,7 @@ def generate_response(topic):
   return st.info(response)
 
 with st.form('myform'):
-  topic_text = st.text_input('Enter prompt:', '')
+  topic_text = st.text_input('Enter your Question:', placeholder = 'Can you give me a short summary?', disabled = not uploaded_file,)
   submitted = st.form_submit_button('Submit')
   if not openai_api_key.startswith('sk-'):
     st.warning('Please enter your OpenAI API key!', icon='⚠')
