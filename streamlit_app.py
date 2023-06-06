@@ -12,7 +12,7 @@ def generate_response(topic):
   template = 'As an experienced data scientist and technical writer, generate an outline for a blog about {topic}.'
   prompt = PromptTemplate(input_variables=['topic'], template=template)
   prompt_query = prompt.format(topic=topic)
-  # Run LLM model
+  # Run LLM model and print out response
   response = llm(prompt_query)
   return st.info(response)
 
