@@ -4,7 +4,7 @@ from langchain import PromptTemplate
 
 st.set_page_config(page_title ="🦜🔗 Blog Outline Generator App")
 st.title('🦜🔗 Blog Outline Generator App')
-openai_api_key = st.sidebar.text_input('OpenAI API Key')
+openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 
 def generate_response(topic):
   llm = OpenAI(model_name='text-davinci-003', openai_api_key=openai_api_key)
